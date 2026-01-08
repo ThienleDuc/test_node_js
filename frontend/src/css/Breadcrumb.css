@@ -1,0 +1,11 @@
+.breadcrumb-link {
+  color: #0d6efd; /* màu mặc định bootstrap link */
+  text-decoration: none; /* bỏ gạch chân mặc định */
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.breadcrumb-link:hover {
+  color: #0a58ca; /* màu khi hover */
+  text-decoration: underline; /* thêm gạch chân khi hover */
+  cursor: pointer;
+}

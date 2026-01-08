@@ -1,0 +1,110 @@
+# ===== Visual Studio =====
+# VS directory
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ===== Build results =====
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ===== ASP.NET MVC Frontend (ASP-Frontend) =====
+ASP-Frontend/bin/
+ASP-Frontend/obj/
+ASP-Frontend/*.user
+ASP-Frontend/*.suo
+ASP-Frontend/*.csproj.user
+ASP-Frontend/Properties/PublishProfiles/
+ASP-Frontend/Properties/ServiceDependencies/
+# Alternatively, ignore all files in image directory
+# ASP-Frontend/wwwroot/image/imageBlog/*
+
+# ===== NodeJS =====
+NodeJS-API/package-lock.json
+NodeJS-API/.env
+
+# ===== Visual Studio files =====
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# ===== ReSharper and Rider =====
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ===== Logs and databases =====
+*.log
+logs/
+*.mdf
+*.ldf
+*.ndf
+
+# Configuration files
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+# Ignore sensitive file
+secret_config.json
